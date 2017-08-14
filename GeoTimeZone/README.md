@@ -1,2 +1,7 @@
-# Python-For-Fun_Projects
-Some of the python projects found on the internet and recoded.
+# Requirement
+- Requires Python 3
+- Make sure tkinter python module is installed
+
+# Execution
+- Place both the files under same directory
+- run - python3 a1_gui.py

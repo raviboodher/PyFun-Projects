@@ -3,8 +3,8 @@
 - Make sure tkinter python module is installed
 
 # Execution
-- Place both the files under same directory
-- run - python3 a1_gui.py
+- Place both the files under the same directory
+- run - # python3 a1_gui.py
 
 # Screenshot
 

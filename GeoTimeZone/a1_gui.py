@@ -3,7 +3,6 @@ import a1
 import time
 import math
 
-# The list of expected functions in a student submission.
 EXPECTED_FNS = ['hours_difference',
                 'to_float_hours',
                 'get_hours',
@@ -13,14 +12,14 @@ EXPECTED_FNS = ['hours_difference',
                 'time_from_utc']
 
 
-# Make fake empty functions for ones that students haven't written yet.
+
 for f in EXPECTED_FNS:
     if not hasattr(a1, f):
         print(f, "is missing in a1.py.")
         a1.__dict__[f] = lambda *x: 0
 
 
-# The list of the world's time zones.
+# time zones.
 REAL_ZONES = [
     'local', 'UTC-12.0',  'UTC-11.0',  'UTC-10.0',  'UTC-9.5',  'UTC-9.0',
     'UTC-8.0',  'UTC-7.0',  'UTC-6.0',  'UTC-5.0',  'UTC-4.5',  'UTC-4.0',
